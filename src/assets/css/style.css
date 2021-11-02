@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* ======================================== Navigation Menu ========================================== */
+
+
+.mainHeader .navbar{
+    background-color: rgba(0,0,0,0.5) !important;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 0px 10px black;
+    padding: 0%;
+}
+
+.mainHeader .siteLogo{
+    width: 65px;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.nav-link:hover{
+    opacity: .7;
+}
+/* ======================================== Navigation Menu ========================================== */
+
+/* ======================================== Hero Section ========================================== */
+
+
+.heroDiv .container-fluid{
+    background-color: #c0c0c0;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/src/assets/images/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroDiv .hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 2rem;   
+    text-align: center; 
+}
+
+.heroSec-btnGroup{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.heroSec-btnGroup .openseaBtn{
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+    background-color: #ED5689;
+}
+
+.heroSec-btnGroup .openseaBtn:hover{
+    background-color: #fff;
+    color: #ED5689;
+}
+
+.heroSec-btnGroup .openseaBtn:focus{
+        box-shadow: none;
+}
+
+.heroSec-btnGroup .discordBtn{
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+
+.heroSec-btnGroup .discordBtn:hover{
+    background-color: #000;
+    color: #fff;
+}
+.heroSec-btnGroup .discordBtn:focus{
+    box-shadow: none;
+}
+
+.hero-section h1{
+    color: #fff;
+    font-size: 4rem;
+}
+
+.hero-section p {
+    color: #fff;
+    font-size: 1.2rem;
+}
+/* ======================================== Hero Section ========================================== */
+
+
+.unique_edition{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0px;
+}
