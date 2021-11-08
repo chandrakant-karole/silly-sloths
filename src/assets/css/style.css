@@ -13,6 +13,7 @@
     width: 100%;
     box-shadow: 0px 0px 10px black;
     padding: 0%;
+    z-index: 9;
 }
 
 .mainHeader .siteLogo{
@@ -27,6 +28,20 @@
 
 .nav-link:hover{
     opacity: .7;
+}
+
+.connect_walletBtn{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.connect_walletBtn:hover{
+    color: #000;
+    border: 2px solid #fff;
+    background-color: #fff;
+    font-weight: 600;
 }
 /* ======================================== Navigation Menu ========================================== */
 
@@ -75,6 +90,22 @@
         box-shadow: none;
 }
 
+.heroSec-btnGroup .twitterBtn{
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+    background-color: #7F67D7;
+}
+
+.heroSec-btnGroup .twitterBtn:hover{
+    background-color: #fff;
+    color: #7F67D7;
+}
+
+.heroSec-btnGroup .twitterBtn:focus{
+    box-shadow: none;
+}
+
 .heroSec-btnGroup .discordBtn{
     padding: 10px 30px;
     font-size: 20px;
@@ -103,10 +134,266 @@
 }
 /* ======================================== Hero Section ========================================== */
 
-
+/* ====================== Count Section ============================== */
 .unique_edition{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 40px 0px;
+}
+/* ====================== Count Section ============================== */
+
+
+/* ================== About ====================== */
+.aboutDiv{
+    background: #E190B9;
+    padding: 90px 0px;
+}
+
+.aboutDiv .container{
+    padding: 50px;
+    background-color: rgb(251 225 255 / 83%);
+    box-shadow: 0px 0px 20px 8px #00000066;
+}
+
+.about {
+    padding: 2rem 0rem;
+}
+
+.about_img{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+
+.about_img .mindSloth{
+    width: 60%;
+}
+
+.abtBtn_discord{
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    font-weight: 600;
+}
+
+.abtBtn_discord:hover{
+    border: 2px solid #000;
+    background-color: black;
+    color: #fff;
+    font-weight: 600;
+}
+
+.abtBtn_discord:focus{
+    box-shadow: none;
+}
+/* ================== About ====================== */
+
+/* ================== Story ====================== */
+.storyDiv{
+    padding: 50px;
+    background-color: aliceblue;
+}
+
+.story {
+    padding: 2rem 0rem;
+}
+
+.story_img{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+
+.story_img .mindSloth{
+    width: 60%;
+}
+
+/* ================== Story ====================== */
+/* ================== RoadMap ====================== */
+.roadMapDiv{
+    background-color: #8DF4A5;
+}
+
+.roadMap_container{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background: #caffd794;
+    margin: 50px 0px;
+    box-shadow: 0px 0px 20px 8px #00000066;
+}
+
+.roadMap_phase{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background: transparent;
+    box-shadow: inset 0px 0px 15px 3px #00000024;
+    padding: 10px 40px;
+    margin: 10px 0px;
+}
+
+.roadMap_phase_img img{
+    width: 100px;
+}
+
+.roadMap_phase_content ul li{
+    list-style-type: none;
+}
+
+
+/* ============= Team ===================== */
+.team_box img{
+    width: 200px;
+}
+
+/* .teamDiv{
+
+} */
+
+/* ================== FAQ ===================== */
+.faqDiv{
+    padding: 50px;
+}
+
+.faqHeading{
+    text-align: center;
+}
+
+/* ================== Bottom About ================ */
+.bottomAboutDiv{
+    background-color: black;
+}
+
+.bottomAboutDiv .container{
+    padding: 50px;
+    color: aliceblue;
+}
+
+.bottomBtn .twitter{
+    border: 2px solid #fff;
+    background: transparent;
+    font-weight: 600;
+}
+
+.bottomBtn .twitter:hover{
+    /* border: 2px solid #fff; */
+    background: #fff;
+    color: #000;
+}
+
+.bottomBtn .twitter:focus{
+    box-shadow: none;
+}
+
+.bottomBtn .discord{
+    background-color: #7F67D7;
+    border: 2px solid #7F67D7;
+    font-weight: 600;
+}
+
+.bottomBtn .discord:hover{
+    background-color: black;
+    color: #7F67D7;
+}
+
+.bottomBtn .discord:focus{
+    box-shadow: none;
+}
+
+/* =============== Footer ================= */
+.footer{
+    padding: 18px 0px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.footerSocial{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerSocial .twitterIcon{
+    font-size: 25px;
+}
+
+.footerSocial .instagramIcon{
+    font-size: 25px;
+}
+.bottomBtn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+/* ==================================================== Responsive ===================================================== */
+
+@media screen and (max-width:425px) {
+    .heroDiv .hero-section{
+        padding: 8rem 0rem;
+    }
+
+    .hero-section p{
+        font-size: 1rem;
+    }
+
+    .hero-section h1{
+        font-size: 2rem;
+    }
+
+    .heroSec-btnGroup .openseaBtn{
+        font-size: 18px;
+    }
+
+    .heroSec-btnGroup .discordBtn{
+        font-size: 18px;
+    }
+
+    .aboutDiv .row{
+        flex-direction: column-reverse;
+    }
+
+    .aboutDiv .container{
+        padding: 20px;
+    }
+
+    .storyDiv{
+        padding: 20px;
+    }
+
+    .unique_edition{
+        flex-direction: column;
+    }
+
+    .roadMap_phase{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .roadMap_container{
+        padding: 10px;
+    }
+
+    .roadMap_phase_content ul {
+        padding: 0%;
+    }
+
+    .faqDiv{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:328px) {
+    .bottomBtn{
+        justify-content: flex-start;
+    }
 }

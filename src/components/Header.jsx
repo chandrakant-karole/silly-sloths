@@ -1,11 +1,11 @@
 import React from 'react'
-import { Container, Navbar, Nav, Button, Image } from 'react-bootstrap'
+import { Container, Navbar, Nav, Image } from 'react-bootstrap'
 import Logo from '../assets/images/silly-sloths.png'
 
 export default function Header() {
     return (
         <>
-            <div className="mainHeader">
+            <div className="mainHeader" id="home">
                 <Navbar bg="dark" variant="dark" expand="lg">
                     <Container fluid>
                         <Navbar.Brand href="#"><Image className="siteLogo" src={Logo} fluid/></Navbar.Brand>
@@ -16,13 +16,14 @@ export default function Header() {
                                 style={{ maxHeight: '400px' }}
                                 navbarScroll
                             >
-                                <Nav.Link href="#action1">Home</Nav.Link>
-                                <Nav.Link href="#action2">About Us</Nav.Link>
-                                <Nav.Link href="#action3">RoadMap</Nav.Link>
-                                <Nav.Link href="#action4">FAQ</Nav.Link>
+                                <Nav.Link href="#home">Home</Nav.Link>
+                                <Nav.Link href="#about">About Us</Nav.Link>
+                                <Nav.Link href="#roadMap">RoadMap</Nav.Link>
+                                <Nav.Link href="#team">Team</Nav.Link>
+                                <Nav.Link href="#faq">FAQ</Nav.Link>
                             </Nav>
 
-                            <Button variant="outline-light">Connect Wallet</Button>
+                            <a className="connect_walletBtn" href="/">Connect Wallet</a>
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
