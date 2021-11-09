@@ -16,8 +16,8 @@ export default function Footer() {
                         </Col>
                         <Col lg={4} className="my-2">
                             <div className="footerSocial">
-                                <FontAwesomeIcon className="twitterIcon" icon={faTwitter} />
-                                <FontAwesomeIcon className="instagramIcon" icon={faInstagram} />
+                                <a className="twitIcon" href="/"><FontAwesomeIcon className="twitterIcon" icon={faTwitter} /></a>
+                                <a className="instIcon" href="/"><FontAwesomeIcon className="instagramIcon" icon={faInstagram} /></a>
                             </div>
                         </Col>
                     </Row>

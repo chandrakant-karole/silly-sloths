@@ -72,6 +72,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
+    z-index: 1;
 }
 
 .heroSec-btnGroup .openseaBtn{
@@ -216,7 +217,7 @@
 /* ================== Story ====================== */
 /* ================== RoadMap ====================== */
 .roadMapDiv{
-    background-color: #8DF4A5;
+    background-color: #EEB067;
 }
 
 .roadMap_container{
@@ -267,6 +268,23 @@
     text-align: center;
 }
 
+.faqDiv .accordion-button::after{
+    filter: invert(1) brightness(50);
+}
+
+.faqDiv .accordion-button{
+    color: #fff;
+    background-color: #7F67D7;
+}
+
+.faqDiv .accordion-button:focus{
+    box-shadow: none;
+}
+
+.faqDiv .accordion-body{
+        border: 1px solid #7f67d7;
+        color: #3d2888;
+}
 /* ================== Bottom About ================ */
 .bottomAboutDiv{
     background-color: black;
@@ -335,6 +353,25 @@
     height: 100%;
 }
 
+.footerSocial .twitIcon{
+    color: #fff;
+    transition: all .5s;
+}
+
+.footerSocial .twitIcon:hover{
+    color: #fff;
+    transform: translateY(-10px);
+}
+
+.footerSocial .instIcon{
+    color: #fff;
+    transition: all .5s;
+}
+
+.footerSocial .instIcon:hover{
+    color: #fff;
+    transform: translateY(-10px);
+}
 /* ==================================================== Responsive ===================================================== */
 
 @media screen and (max-width:425px) {

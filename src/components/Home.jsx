@@ -8,12 +8,15 @@ import Counter from './Counter'
 import Roadmap from './Roadmap'
 import Team from './Team'
 import Faq from './Faq'
+import AnimateEffect from './AnimateEffect'
 
 export default function Home() {
     return (
         <>
+
             {/* ===================== Hero Section ============================= */}
             <div className="heroDiv">
+                <AnimateEffect/>
                 <Container fluid>
                     <Row className="justify-content-center">
                         <Col lg={8}>
@@ -103,7 +106,7 @@ export default function Home() {
                         </Col>
                         <Col lg={6}>
                             <div className="bottomBtn">
-                                <Button className="twitter my-4">Twitter <FontAwesomeIcon icon={faArrowRight}/></Button>
+                                <Button className="twitter my-4">Twitter <FontAwesomeIcon icon={faArrowRight} /></Button>
                                 <Button className="discord">Join Discord <FontAwesomeIcon icon={faArrowRight} /></Button>
                             </div>
                         </Col>
