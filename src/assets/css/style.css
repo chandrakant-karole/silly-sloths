@@ -126,7 +126,8 @@
 
 .hero-section h1{
     color: #fff;
-    font-size: 4rem;
+    font-weight: 900;
+    font-size: 6rem;
 }
 
 .hero-section p {
@@ -159,6 +160,10 @@
 
 .about {
     padding: 2rem 0rem;
+}
+
+.about h2{
+    font-weight: bold;
 }
 
 .about_img{
@@ -203,6 +208,10 @@
 
 .story {
     padding: 2rem 0rem;
+}
+
+.story h2{
+    font-weight: bold;
 }
 
 .story_img{
@@ -396,7 +405,7 @@
     }
 
     .hero-section h1{
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .heroSec-btnGroup .openseaBtn{

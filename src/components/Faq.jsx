@@ -16,13 +16,13 @@ export default function Faq() {
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header>What’s an NFT?</Accordion.Header>
                                 <Accordion.Body>
-                                    An NFT stands for “Non-fungible token” and is a fancy way of saying and identifying a unique, one-of-a kind digital item that users can buy, own, and trade. Some NFTs main function are to be digital art and look appealing, some offer additional utility like exclusive access to websites or participation in an event, think of it like a rare piece of digital art that can also act as a “members” card.
+                                    An NFT stands for “Non-fungible token” and is a fancy way of saying and identifying a unique, one-of-a kind digital item that users can buy, own, and trade.  Some NFTs main function are to be digital art and look appealing, some offer additional utility like exclusive access to websites or participation in an event, think of it like a rare piece of digital art that can also act as a “members” card.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">
                                 <Accordion.Header>How to get a Silly Sloth? </Accordion.Header>
                                 <Accordion.Body>
-                                    You will be able to mint Silly Sloths on our website www.SillySloths.com. The mint date is scheduled forDecember 2021. For those who miss out on the mint, Silly Sloths will be available for purchase on OpenSea, the world’s first and largest NFT marketplace, at: https://opensea.io/.
+                                    You will be able to mint Silly Sloths on our website www.SillySloths.com. The mint date is scheduled forDecember 2021.  For those who miss out on the mint, Silly Sloths will be available for purchase on OpenSea, the world’s first and largest NFT marketplace, at: https://opensea.io/.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="2">
@@ -144,7 +144,7 @@ export default function Faq() {
                             <Accordion.Item eventKey="20">
                                 <Accordion.Header>Why get a Silly Sloth?</Accordion.Header>
                                 <Accordion.Body>
-                                    You get to participate in the rapidly growing crypto world with one of themost fun, curated but randomized NFT projects to date and you get aneye-catching profile picture while you are at it. You can also help us evolve and build the future of Silly Sloths. We arereserving 200Slothsto give back to the community (through contests, raffles, and more) – because we genuinely want Silly Slothsto be a fun project that fosters belonging and community. By getting a Silly Sloth you have a voice in the community and can help guide the direction of the project. We’ll ask for input and ideas to keep the Silly Sloths community engaging and creative.
+                                    You get to participate in the rapidly growing crypto world with one of the most fun, curated but randomized NFT projects to date and you get an eye-catching profile picture while you are at it. You can also help us evolve and build the future of Silly Sloths. We are reserving 200 Sloths to give back to the community (through contests, raffles, and more) – because we genuinely want Silly Sloths to be a fun project that fosters belonging and community. By getting a Silly Sloth you have a voice in the community and can help guide the direction of the project. We’ll ask for input and ideas to keep the Silly Sloths community engaging and creative.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="21">
@@ -157,7 +157,7 @@ export default function Faq() {
                             <Accordion.Item eventKey="22">
                                 <Accordion.Header>Future of Silly Sloths?</Accordion.Header>
                                 <Accordion.Body>
-                                    Silly Slothsare much more than an NFT art project. We have plans and hopes to build a Silly Slothscommunity built on interactivity and utility, individual and group rewards, collaboration, and personal and financial growth opportunities, and much more!
+                                    Silly Sloths are much more than an NFT art project. We have plans and hopes to build a Silly Sloths community built on interactivity and utility, individual and group rewards, collaboration, and personal and financial growth opportunities, and much more!
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>

@@ -50,10 +50,10 @@ export default function Home() {
                         <Col lg={6}>
                             <div className="about">
                                 <h2>ABOUT </h2>
-                                <p>At Silly Sloths we believe in the future of blockchain and especially the future of NFTs. We want to have fun & help shape the future of blockchain technology! 
+                                <p>At Silly Sloths we believe in the future of blockchain and especially the future of NFTs.  We want to have fun & help shape the future of blockchain technology! 
                                 </p>
-                                <p>Silly Slothsis an art collectionof 100% hand drawn digital artwork combined to create unique NFTs.Each sloth will have its owncombination of background, color scheme, facial expressions,body, hat, eyes, accessories and more– the possibilities are endless.</p>
-                                <p>Silly Slothswill be an honest operation with 100% randomdrawing after minting. Please be confident that you will have an equal opportunity of drawing a rare Silly Sloth as anyone else. Good luck and stay Silly!</p>
+                                <p>Silly Slothsis an art collectionof 100% hand drawn digital artwork combined to create unique NFTs.  Each sloth will have its owncombination of background, color scheme, facial expressions, body, hat, eyes, accessories and more – the possibilities are endless.  </p>
+                                <p>Silly Slothswill be an honest operation with 100% randomdrawing after minting.  Please be confident that you will have an equal opportunity of drawing a rare Silly Sloth as anyone else.  Good luck and stay Silly!</p>
                                 <div style={{marginTop : '25px'}}>
                                 <a href="https://discord.com/invite/tuw7Yqez" target="_blank" rel="noreferrer" className="abtBtn_discord">Join Discord <FontAwesomeIcon icon={faArrowRight} /></a>
                                 </div>
@@ -81,7 +81,7 @@ export default function Home() {
                         <Col lg={6}>
                             <div className="story">
                                 <h2>Silly Sloth Story</h2>
-                                <p>Welcome to Slow Motion tropical rainforest. Slow Motion is home to a group of the sluggish tree-dwellers known as Silly Sloths. These adorable sloths come together to enjoy some thrilling activities like river rafting, canyoning, cave tubing, and zip lining -- of course all in super slow motion. They also throw some killer parties and dance in slow motion to Calypso, soca, salsa, merengue, and cumbia. When the sloths really want to get silly they pump up the rock, reggaeton, and hip hop music. In addition to being their shelter and food source, the tree tops are where they rest after being silly. Their partying only lasts a few hours per day because sloths spend 15 to 20 hours per day sleeping. Yeah they live a good life except their homes are being depleted due to deforestation.  Save a sloth on the NFT blockchain and help a sloth in the real world.
+                                <p>Welcome to Slow Motion tropical rainforest.  Slow Motion is home to a group of the sluggish tree-dwellers known as Silly Sloths.  These adorable sloths come together to enjoy some thrilling activities like river rafting, canyoning, cave tubing, and zip lining -- of course all in super slow motion. They also throw some killer parties and dance in slow motion to Calypso, soca, salsa, merengue, and cumbia.  When the sloths really want to get silly they pump up the rock, reggaeton, and hip hop music.  In addition to being their shelter and food source, the tree tops are where they rest after being silly.  Their partying only lasts a few hours per day because sloths spend 15 to 20 hours per day sleeping.  Yeah they live a good life except their homes are being depleted due to deforestation.  Save a sloth on the NFT blockchain and help a sloth in the real world.
                                 </p>
                             </div>
                         </Col>
