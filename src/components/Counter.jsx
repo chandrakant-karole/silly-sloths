@@ -11,10 +11,10 @@ export default function Counter() {
             let uniqueEd = document.getElementById('uniqueEd');
             let slothAtr = document.getElementById('slothAtr');
             let followers = document.getElementById('followers');
-            if (initial === 200){
-                uniqueEd.innerText = '10000+';
-                slothAtr.innerText = '70+';
-                followers.innerText = '10000+';
+            if (initial === 100){
+                uniqueEd.innerText = '10000';
+                slothAtr.innerText = '100';
+                followers.innerText = '8';
                 stop();
             } else{
                 let newNumber = initial ++;
@@ -35,20 +35,20 @@ export default function Counter() {
                     <Row className="justify-content-center">
                         <Col lg={3}>
                             <div className="unique_edition">
-                                <h2 id="uniqueEd">10000+</h2>
-                                <span>Unique Edition</span>
+                                <h2 id="uniqueEd">10000</h2>
+                                <span>Unique Silly Sloths</span>
                             </div>
                         </Col>
                         <Col lg={3}>
                             <div className="unique_edition">
-                                <h2 id="slothAtr">70+</h2>
-                                <span>Sloth Attributes</span>
+                                <h2 id="slothAtr">100</h2>
+                                <span>Unique traits</span>
                             </div>
                         </Col>
                         <Col lg={3}>
                             <div className="unique_edition">
-                                <h2 id="followers">10000+</h2>
-                                <span>Followers</span>
+                                <h2 id="followers">8</h2>
+                                <span>Unique properties</span>
                             </div>
                         </Col>
                     </Row>

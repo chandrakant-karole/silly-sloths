@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import Dummy from '../assets/images/dummy.jpg'
+import Kiah from '../assets/images/kiah.jpeg'
+import Yoshi from '../assets/images/Yoshi.jpeg'
 import MemberCard from './MemberCard'
 
 
@@ -9,19 +10,19 @@ export default function Team() {
         <>
             <div className="teamDiv" id="team">
                 <Container>
-                    <Row>
+                    <Row className="justify-content-center">
                         <Col lg={12} className="text-center my-4">
                             <h2>Meet the Team</h2>
                             <p>The Silly Sloths team is a dynamic duo – Kiah and Joshua – passionate about art, crypto, and blockchain technology.</p>
                         </Col>
-                        <MemberCard image={Dummy} name="Kiah" description="Kaih is a talented artistwhopersonally drew all the Silly Sloths digital art by hand."/>
-                        <MemberCard image={Dummy} name="Joshuaaka Yoshi Motion" description="Joshuaaka Yoshi Motion is the creative vision and project manager of Silly Sloths."/>
+                        <MemberCard image={Kiah} name="Kiah" description="Kaih is a talented artist who personally drew all the Silly Sloths digital art by hand."/>
+                        <MemberCard image={Yoshi} name="Joshua a.k.a. Yoshi Motion" description="Joshua aka Yoshi Motion is the creative vision and project manager of Silly Sloths."/>
+                        {/* <MemberCard image={Dummy}/>
                         <MemberCard image={Dummy}/>
                         <MemberCard image={Dummy}/>
                         <MemberCard image={Dummy}/>
                         <MemberCard image={Dummy}/>
-                        <MemberCard image={Dummy}/>
-                        <MemberCard image={Dummy}/>
+                        <MemberCard image={Dummy}/> */}
                     </Row>
                 </Container>
             </div>

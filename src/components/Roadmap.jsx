@@ -1,6 +1,6 @@
 import React from 'react'
-import Dummy from '../assets/images/dummy.jpg'
-import { Container, Row, Image } from 'react-bootstrap'
+// import Dummy from '../assets/images/dummy.jpg'
+import { Container, Row } from 'react-bootstrap'
 
 export default function Roadmap() {
     return (
@@ -13,7 +13,7 @@ export default function Roadmap() {
                             <p>There will be a white list created for a pre-sale event and then it will be opened up for a public sale. The minting process will take place on the Silly Sloths website and connect to OpenSea.io. The initial images that show up on OpenSea will be a generic image. Once all 9,900 Silly Sloths are purchased, a reveal event will happen. At that point,if all 9,900 Silly Sloths are sold, the NFTs will be replaced with unique randomly generated Silly Sloths.</p>
                             <div className="roadMap_phase">
                                 <div className="roadMap_phase_img">
-                                    <Image src={Dummy} fluid />
+                                    {/* <Image src={Dummy} fluid /> */}
                                 </div>
                                 <div className="roadMap_phase_content">
                                     <h3>PHASE 1 – Pre-Mint</h3>
@@ -29,7 +29,7 @@ export default function Roadmap() {
                             </div>
                             <div className="roadMap_phase">
                                 <div className="roadMap_phase_img">
-                                    <Image src={Dummy} fluid />
+                                    {/* <Image src={Dummy} fluid /> */}
                                 </div>
                                 <div className="roadMap_phase_content">
                                     <h3>PHASE 2 – Mint </h3>
@@ -42,7 +42,7 @@ export default function Roadmap() {
                             </div>
                             <div className="roadMap_phase">
                                 <div className="roadMap_phase_img">
-                                    <Image src={Dummy} fluid />
+                                    {/* <Image src={Dummy} fluid /> */}
                                 </div>
                                 <div className="roadMap_phase_content">
                                     <h3>PHASE 3 – Growth </h3>
