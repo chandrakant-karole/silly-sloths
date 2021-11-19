@@ -24,8 +24,7 @@ export default function Home() {
                         <Col lg={8}>
                             <div className="hero-section">
                                 <h1>Silly Sloths</h1>
-                                <p>Silly Sloths are one-of-a-kind creatures in the new age of digital art
-                                    living on the Ethereum blockchain.
+                                <p>In a rainforest of digital artistry the Silly Sloths are a unique family of creatures, nesting their home in the branches of the Ethereum blockchain. 
                                 </p>
                                 <div className="heroSec-btnGroup">
                                     <Button className="openseaBtn my-2">Mint <FontAwesomeIcon icon={faArrowRight} /></Button>
@@ -50,10 +49,10 @@ export default function Home() {
                         <Col lg={6}>
                             <div className="about">
                                 <h2>ABOUT </h2>
-                                <p>At Silly Sloths we believe in the future of blockchain and especially the future of NFTs.  We want to have fun & help shape the future of blockchain technology! 
+                                <p>Here at Silly Sloths were growing the community of fantastical NFTs, and shaping the future of blockchain technology. There is no better time than now to engage with the world of digital currency. We plan to grow the Silly Sloth family, and have fun doing it! 
                                 </p>
-                                <p>Silly Slothsis an art collectionof 100% hand drawn digital artwork combined to create unique NFTs.  Each sloth will have its owncombination of background, color scheme, facial expressions, body, hat, eyes, accessories and more – the possibilities are endless.  </p>
-                                <p>Silly Slothswill be an honest operation with 100% randomdrawing after minting.  Please be confident that you will have an equal opportunity of drawing a rare Silly Sloth as anyone else.  Good luck and stay Silly!</p>
+                                <p>Silly Sloths is a visionary art collection guaranteed to surprise you. Our sloth friends are one-of-a-kind digital creations who love to have a good time. They are 100% hand drawn and personally curated to make you smile. There’s no guessing what your Silly Sloth will be up to, and that’s the most exciting part. Each sloth has its own personality, style, and interests. Good luck trying to keep up with these guys.</p>
+                                <p>Silly Sloth values originality and authenticity. You are guaranteed a 100% random drawing after minting, and then get to meet your very own Silly Sloth. Everyone has an equal opportunity of drawing our rare sloths, the possibilities are endless. While no two sloths are the same, they are all guaranteed to be silly!</p>
                                 <div style={{marginTop : '25px'}}>
                                 <a href="https://discord.com/invite/tuw7Yqez" target="_blank" rel="noreferrer" className="abtBtn_discord">Join Discord <FontAwesomeIcon icon={faArrowRight} /></a>
                                 </div>
@@ -81,8 +80,10 @@ export default function Home() {
                         <Col lg={6}>
                             <div className="story">
                                 <h2>Silly Sloth Story</h2>
-                                <p>Welcome to Slow Motion tropical rainforest.  Slow Motion is home to a group of the sluggish tree-dwellers known as Silly Sloths.  These adorable sloths come together to enjoy some thrilling activities like river rafting, canyoning, cave tubing, and zip lining -- of course all in super slow motion. They also throw some killer parties and dance in slow motion to Calypso, soca, salsa, merengue, and cumbia.  When the sloths really want to get silly they pump up the rock, reggaeton, and hip hop music.  In addition to being their shelter and food source, the tree tops are where they rest after being silly.  Their partying only lasts a few hours per day because sloths spend 15 to 20 hours per day sleeping.  Yeah they live a good life except their homes are being depleted due to deforestation.  Save a sloth on the NFT blockchain and help a sloth in the real world.
+                                <p>Welcome to the canopies of the Slow Motion rain forest, home to the Silly Sloth family! There is never a boring day for the Silly Sloths. Our adorable tree-dwellers have created a world of their own filled with endless adventures. While the sloths love to take it slow, don’t underestimate their ability to have a good time. You can find them ziplining through tropical tree tops, or cascading down river banks with their friends. Some of the Silly Sloths like to soak in the sun, building epic sand castles. Others prefer to spend their hours drinking fruity beverages, and munching on leaves. They often end their nights with rockin’ dance parties, dancing the tango in slow motion or DJing the forest's next top hit. If they’re feeling really silly, they play a pretty iconic game of musical chairs: Sloth edition. You can imagine how long that one lasts. Our sloths keep it silly for a few hours before nestling into bed with their friends. These sleepy fellows spend 15 to 20 hours dreaming, so no wonder they pack their days so full! Who wouldn't want to hang out with our sloth friends? 
                                 </p>
+                                <p>While their lives seem pretty great, our digital sloths don’t face quite as much distress as our real life mascot. Sloths are an endangered species, and their homes are being destroyed by deforestation. By investing into the Silly Sloth NFT, you could save a sloth in real life! A portion of our income is donated to help endangered sloths reclaim their environment. Let's help the sloths keep partying amongst the treetops! </p>
+                                <i>Join the Sloth family as we expand the world of digital currency, artistry, and protect our sloth friends along the way.</i>
                             </div>
                         </Col>
                     </Row>
@@ -109,7 +110,7 @@ export default function Home() {
                         <Col lg={6}>
                             <div className="bottomAbout">
                                 <h2>Silly Sloths</h2>
-                                <p>Silly Sloths are one-of-a-kind creatures in the new age of digital art living on the Ethereum blockchain.</p>
+                                <p>In a rain forest of digital artistry the Silly Sloths are a unique family of creatures, nesting their home in the branches of the Ethereum blockchain.</p>
                             </div>
                         </Col>
                         <Col lg={6}>
