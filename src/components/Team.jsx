@@ -17,12 +17,6 @@ export default function Team() {
                         </Col>
                         <MemberCard image={Kiah} name="Kiah" description="Kaih is a talented artist who personally drew all the Silly Sloths digital art by hand."/>
                         <MemberCard image={Yoshi} name="Joshua" description="Joshua aka Yoshi Motion is the creative vision and project manager of Silly Sloths."/>
-                        {/* <MemberCard image={Dummy}/>
-                        <MemberCard image={Dummy}/>
-                        <MemberCard image={Dummy}/>
-                        <MemberCard image={Dummy}/>
-                        <MemberCard image={Dummy}/>
-                        <MemberCard image={Dummy}/> */}
                     </Row>
                 </Container>
             </div>

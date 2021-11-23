@@ -2,8 +2,6 @@ import React from 'react'
 import { Container, Row, Col, Button, Image } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
-// import { faDiscord, faTwitter } from '@fortawesome/free-brands-svg-icons'
-// import MindSloth from '../assets/images/mind-sloth.jpg'
 import AboutImg from '../assets/images/about_img.jpeg'
 import StoryImg from '../assets/images/story_img.jpeg'
 import Counter from './Counter'
@@ -28,8 +26,6 @@ export default function Home() {
                                 </p>
                                 <div className="heroSec-btnGroup">
                                     <Button className="openseaBtn my-2">Mint <FontAwesomeIcon icon={faArrowRight} /></Button>
-                                    {/* <Button className="twitterBtn my-2">Twitter <FontAwesomeIcon icon={faTwitter} /></Button> */}
-                                    {/* <Button className="discordBtn my-2">Join Discord <FontAwesomeIcon icon={faDiscord} /></Button> */}
                                 </div>
                             </div>
                         </Col>
