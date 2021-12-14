@@ -50,7 +50,7 @@ export default function Home() {
                                 <p>Silly Sloths is a visionary art collection guaranteed to surprise you. Our sloth friends are one-of-a-kind digital creations who love to have a good time. They are 100% hand drawn and personally curated to make you smile. There’s no guessing what your Silly Sloth will be up to, and that’s the most exciting part. Each sloth has its own personality, style, and interests. Good luck trying to keep up with these guys.</p>
                                 <p>Silly Sloth values originality and authenticity. You are guaranteed a 100% random drawing after minting, and then get to meet your very own Silly Sloth. Everyone has an equal opportunity of drawing our rare sloths, the possibilities are endless. While no two sloths are the same, they are all guaranteed to be silly!</p>
                                 <div style={{marginTop : '25px'}}>
-                                <a href="https://discord.com/invite/tuw7Yqez" target="_blank" rel="noreferrer" className="abtBtn_discord">Join Discord <FontAwesomeIcon icon={faArrowRight} /></a>
+                                <a href="https://discord.com/invite/GeKngV8ds8" target="_blank" rel="noreferrer" className="abtBtn_discord">Join Discord <FontAwesomeIcon icon={faArrowRight} /></a>
                                 </div>
                             </div>
                         </Col>
@@ -111,8 +111,8 @@ export default function Home() {
                         </Col>
                         <Col lg={6}>
                             <div className="bottomBtn">
-                                <a href="https://twitter.com/SillySlothsNFT" target="_blank" rel="noreferrer" className="twitter my-4">Twitter <FontAwesomeIcon icon={faArrowRight} /></a>
-                                <a href="https://discord.com/invite/tuw7Yqez" rel="noreferrer" target="_blank" className="discord">Join Discord <FontAwesomeIcon icon={faArrowRight} /></a>
+                                <Button href="https://twitter.com/SillySlothsNFT" target="_blank" rel="noreferrer" className="twitter my-4"  disabled>Twitter <FontAwesomeIcon icon={faArrowRight} /></Button>
+                                <a href="https://discord.com/invite/GeKngV8ds8" rel="noreferrer" target="_blank" className="discord">Join Discord <FontAwesomeIcon icon={faArrowRight} /></a>
                             </div>
                         </Col>
                     </Row>
