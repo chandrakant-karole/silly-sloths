@@ -9,6 +9,7 @@ import Roadmap from './Roadmap'
 import Team from './Team'
 import Faq from './Faq'
 import AnimateEffect from './AnimateEffect'
+import { faDiscord } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home() {
     return (
@@ -26,6 +27,7 @@ export default function Home() {
                                 </p>
                                 <div className="heroSec-btnGroup">
                                     <Button className="openseaBtn my-2">Mint <FontAwesomeIcon icon={faArrowRight} /></Button>
+                                    <Button href='https://discord.com/invite/GeKngV8ds8' target='_blank' className="discordBtn my-2">Discord <FontAwesomeIcon icon={faDiscord} /></Button>
                                 </div>
                             </div>
                         </Col>

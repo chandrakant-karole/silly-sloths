@@ -28,7 +28,7 @@ export default function Faq() {
                             <Accordion.Item eventKey="2">
                                 <Accordion.Header>How much will it cost to mint? </Accordion.Header>
                                 <Accordion.Body>
-                                    .07 ETH + gas and will be limited to five (5) sloths per transaction during the whitelist presale and 10 sloths per transaction during the public sale.
+                                    .05 ETH + gas and will be limited to five (5) sloths per transaction during the whitelist presale and 10 sloths per transaction during the public sale.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="3">
@@ -58,7 +58,7 @@ export default function Faq() {
                             <Accordion.Item eventKey="7">
                                 <Accordion.Header>Will all Silly Sloths be sold? </Accordion.Header>
                                 <Accordion.Body>
-                                    No, we will hold 100 sloths for promotional purposes.
+                                    No, we will hold 50 sloths for promotional purposes.
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="8">
@@ -136,25 +136,19 @@ export default function Faq() {
                                 </Accordion.Body>
                             </Accordion.Item>
                             <Accordion.Item eventKey="19">
-                                <Accordion.Header>How silly will my sloth be?</Accordion.Header>
-                                <Accordion.Body>
-                                    Remember – all sloths are silly, one-of-a kind digital creatures! That said, each Silly Sloth will have a rarity factor, depending on the randomization of artistic components, which make up their final silly style and look. The one-of-a-kind digital creature is determined by the random configuration of items your Silly Sloth is made up of from hats to color schemes to items held in your unique sloth’s hand.
-                                </Accordion.Body>
-                            </Accordion.Item>
-                            <Accordion.Item eventKey="20">
                                 <Accordion.Header>Why get a Silly Sloth?</Accordion.Header>
                                 <Accordion.Body>
                                     You get to participate in the rapidly growing crypto world with one of the most fun, curated but randomized NFT projects to date and you get an eye-catching profile picture while you are at it. You can also help us evolve and build the future of Silly Sloths. We are reserving 200 Sloths to give back to the community (through contests, raffles, and more) – because we genuinely want Silly Sloths to be a fun project that fosters belonging and community. By getting a Silly Sloth you have a voice in the community and can help guide the direction of the project. We’ll ask for input and ideas to keep the Silly Sloths community engaging and creative.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="21">
+                            <Accordion.Item eventKey="20">
                                 <Accordion.Header>Cost of $illy $loths</Accordion.Header>
                                 <Accordion.Body>
-                                    = $0.07 ETH
-                                    Silly Sloths are priced at a flat rate ($0.07ETH)
+                                    = $0.05 ETH
+                                    Silly Sloths are priced at a flat rate ($0.05ETH)
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="22">
+                            <Accordion.Item eventKey="21">
                                 <Accordion.Header>Future of Silly Sloths?</Accordion.Header>
                                 <Accordion.Body>
                                     Silly Sloths are much more than an NFT art project. We have plans and hopes to build a Silly Sloths community built on interactivity and utility, individual and group rewards, collaboration, and personal and financial growth opportunities, and much more!

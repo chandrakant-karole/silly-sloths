@@ -10,7 +10,7 @@ export default function Roadmap() {
                     <Row>
                         <div className="roadMap_container">
                             <h2>THE SILLY SLOTH ROADMAP</h2>
-                            <p>There will be a white list created for a pre-sale event and then it will be opened up for a public sale. The minting process will take place on the Silly Sloths website and connect to OpenSea.io. The initial images that show up on OpenSea will be a generic image. Once all 9,900 Silly Sloths are purchased, a reveal event will happen. At that point, if all 9,900 Silly Sloths are sold, the NFTs will be replaced with unique randomly generated Silly Sloths.</p>
+                            <p>There will be a white list created for a pre-sale event and then it will be opened up for a public sale. The minting process will take place on the Silly Sloths website and connect to OpenSea.io. The initial images that show up on OpenSea will be a generic image. Once all 9,950 Silly Sloths are purchased, a reveal event will happen. At that point, if all 9,950 Silly Sloths are sold, the NFTs will be replaced with unique randomly generated Silly Sloths.</p>
                             <div className="roadMap_phase">
                                 <div className="roadMap_phase_img">
                                 </div>
@@ -32,8 +32,8 @@ export default function Roadmap() {
                                 <div className="roadMap_phase_content">
                                     <h3>PHASE 2 – Mint </h3>
                                     <ul>
-                                        <li>• Whitelist Pre-Sale – Whitelist members will have 24 hours to mint an NFT or NFTs up to the maximum allowed per person. </li>
-                                        <li>• Public Sale – Public sale may be stealth to avoid gas wars with 9,900 up for grabs. 100 Silly Sloths will be held for promotional purposes, contests, and raffles to reward members who become more involved in the Silly Sloths community sharing ideas, solving riddles, and winning contests.</li>
+                                        <li>• Whitelist Pre-Sale – Whitelist members will have 24 hours to mint an NFT or NFTs up to the maximum allowed per person. (14th January) </li>
+                                        <li>• Public Sale – Public sale may be stealth to avoid gas wars with 9,950 up for grabs. 50 Silly Sloths will be held for promotional purposes, contests, and raffles to reward members who become more involved in the Silly Sloths community sharing ideas, solving riddles, and winning contests. (15th January)</li>
                                         <li>• Reveal – Each Silly sloth will be revealed 48 hours after the public sale and all Silly Sloths are sold out. </li>
                                     </ul>
                                 </div>

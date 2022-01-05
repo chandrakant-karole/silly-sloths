@@ -77,6 +77,8 @@
     justify-content: space-evenly;
     width: 100%;
     z-index: 1;
+    flex-direction: column;
+    align-items: center;
 }
 
 .heroSec-btnGroup .openseaBtn{
