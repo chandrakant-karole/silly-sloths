@@ -140,6 +140,13 @@
     color: #fff;
     font-size: 1.2rem;
 }
+
+.mint-modal-list .mint-item{
+    cursor: pointer;
+}
+.mint-modal-list .mint-item:hover{
+    background-color: #c0c0c0;
+}
 /* ======================================== Hero Section ========================================== */
 
 /* ====================== Count Section ============================== */

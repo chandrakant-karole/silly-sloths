@@ -4,14 +4,6 @@ import Logo from '../assets/images/silly-sloths.png'
 
 export default function Header() {
 
-    const openMatamask = async ()  =>{
-        let data;
-        await window.ethereum.enable().then((address) => {
-            data = address[0]
-            console.log(address,'this is the data we got ')
-        });
-        
-    }
     return (
         <>
             <div className="mainHeader" id="home">
@@ -32,7 +24,7 @@ export default function Header() {
                                 <Nav.Link href="#faq">FAQ</Nav.Link>
                             </Nav>
 
-                            <a className="connect_walletBtn" onClick={openMatamask} href="/">Connect Wallet</a>
+                            <a className="connect_walletBtn"  href="/">Connect Wallet</a>
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
