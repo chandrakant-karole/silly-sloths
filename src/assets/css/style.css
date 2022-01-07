@@ -141,11 +141,31 @@
     font-size: 1.2rem;
 }
 
+.mint-modal{
+    background-color: #EEB067;
+    background-image: url('../images/hero.jpg');
+}
+
+.mint-modal-list{
+    box-shadow: 0px 0px 10px #00000047;
+}
+
 .mint-modal-list .mint-item{
     cursor: pointer;
+    background: #caffd794;
+    font-weight: 600;
 }
 .mint-modal-list .mint-item:hover{
-    background-color: #c0c0c0;
+    background-color: #bbc17f;
+}
+
+.btn-close{
+    filter: invert(1);
+}
+
+.modal-header{
+    background: #527c2a;
+    color: #fff;
 }
 /* ======================================== Hero Section ========================================== */
 

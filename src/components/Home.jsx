@@ -33,7 +33,7 @@ export default function Home() {
                 <Modal.Header closeButton>
                     <Modal.Title>Choose Nft to Mint</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
+                <Modal.Body className='mint-modal'>
                         <ListGroup className="mint-modal-list">
                             <ListGroup.Item className='mint-item' onClick={openMatamask}>Mint 1 Nft</ListGroup.Item>
                             <ListGroup.Item className='mint-item' onClick={openMatamask}>Mint 2 Nft</ListGroup.Item>
@@ -47,11 +47,11 @@ export default function Home() {
                             <ListGroup.Item className='mint-item' onClick={openMatamask}>Mint 10 Nft</ListGroup.Item>
                         </ListGroup>
                 </Modal.Body>
-                <Modal.Footer>
+                {/* <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>
                         Close
                     </Button>
-                </Modal.Footer>
+                </Modal.Footer> */}
             </Modal>
 
             {/* ===================== Hero Section ============================= */}
