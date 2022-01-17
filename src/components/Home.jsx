@@ -19,14 +19,6 @@ export default function Home() {
     const handleShow = () => setShow(true);
 
     
-    const openMatamask = async ()  =>{
-        setShow(false)
-        let data;
-        await window.ethereum.enable().then((address) => {
-            data = address[0]
-            console.log(address,'this is the data we got ')
-        });
-    }
     return (
         <>
             <Modal show={show} onHide={handleClose}>
@@ -35,16 +27,16 @@ export default function Home() {
                 </Modal.Header>
                 <Modal.Body className='mint-modal'>
                         <ListGroup className="mint-modal-list">
-                            <ListGroup.Item className='mint-item' onClick={openMatamask}>Mint 1 Nft</ListGroup.Item>
-                            <ListGroup.Item className='mint-item' onClick={openMatamask}>Mint 2 Nft</ListGroup.Item>
-                            <ListGroup.Item className='mint-item' onClick={openMatamask}>Mint 3 Nft</ListGroup.Item>
-                            <ListGroup.Item className='mint-item' onClick={openMatamask}>Mint 4 Nft</ListGroup.Item>
-                            <ListGroup.Item className='mint-item' onClick={openMatamask}>Mint 5 Nft</ListGroup.Item>
-                            <ListGroup.Item className='mint-item' onClick={openMatamask}>Mint 6 Nft</ListGroup.Item>
-                            <ListGroup.Item className='mint-item' onClick={openMatamask}>Mint 7 Nft</ListGroup.Item>
-                            <ListGroup.Item className='mint-item' onClick={openMatamask}>Mint 8 Nft</ListGroup.Item>
-                            <ListGroup.Item className='mint-item' onClick={openMatamask}>Mint 9 Nft</ListGroup.Item>
-                            <ListGroup.Item className='mint-item' onClick={openMatamask}>Mint 10 Nft</ListGroup.Item>
+                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 1 Nft</ListGroup.Item>
+                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 2 Nft</ListGroup.Item>
+                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 3 Nft</ListGroup.Item>
+                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 4 Nft</ListGroup.Item>
+                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 5 Nft</ListGroup.Item>
+                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 6 Nft</ListGroup.Item>
+                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 7 Nft</ListGroup.Item>
+                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 8 Nft</ListGroup.Item>
+                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 9 Nft</ListGroup.Item>
+                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 10 Nft</ListGroup.Item>
                         </ListGroup>
                 </Modal.Body>
                 {/* <Modal.Footer>
