@@ -8,6 +8,7 @@ import Counter from './Counter'
 import Roadmap from './Roadmap'
 import Team from './Team'
 import Faq from './Faq'
+import Video from './Video'
 import AnimateEffect from './AnimateEffect'
 import { faDiscord } from '@fortawesome/free-brands-svg-icons'
 
@@ -18,7 +19,12 @@ export default function Home() {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-    
+
+    const [showp, setShowp] = useState(true);
+
+    const handleClosep = () => setShowp(false);
+    // const handleShowp = () => setShowp(true);
+
     return (
         <>
             <Modal show={show} onHide={handleClose}>
@@ -26,18 +32,18 @@ export default function Home() {
                     <Modal.Title>Choose Nft to Mint</Modal.Title>
                 </Modal.Header>
                 <Modal.Body className='mint-modal'>
-                        <ListGroup className="mint-modal-list">
-                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 1 Nft</ListGroup.Item>
-                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 2 Nft</ListGroup.Item>
-                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 3 Nft</ListGroup.Item>
-                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 4 Nft</ListGroup.Item>
-                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 5 Nft</ListGroup.Item>
-                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 6 Nft</ListGroup.Item>
-                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 7 Nft</ListGroup.Item>
-                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 8 Nft</ListGroup.Item>
-                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 9 Nft</ListGroup.Item>
-                            <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 10 Nft</ListGroup.Item>
-                        </ListGroup>
+                    <ListGroup className="mint-modal-list">
+                        <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 1 Nft</ListGroup.Item>
+                        <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 2 Nft</ListGroup.Item>
+                        <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 3 Nft</ListGroup.Item>
+                        <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 4 Nft</ListGroup.Item>
+                        <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 5 Nft</ListGroup.Item>
+                        <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 6 Nft</ListGroup.Item>
+                        <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 7 Nft</ListGroup.Item>
+                        <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 8 Nft</ListGroup.Item>
+                        <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 9 Nft</ListGroup.Item>
+                        <ListGroup.Item className='mint-item' onClick={handleClose}>Mint 10 Nft</ListGroup.Item>
+                    </ListGroup>
                 </Modal.Body>
                 {/* <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>
@@ -45,6 +51,21 @@ export default function Home() {
                     </Button>
                 </Modal.Footer> */}
             </Modal>
+
+            {/* ==============date popup modal=========== */}
+            <Modal show={showp} onHide={handleClosep}>
+                <Modal.Header closeButton>
+                    <Modal.Title></Modal.Title>
+                </Modal.Header>
+                <Modal.Body className='mint-modal popup'>
+                    <div>
+                        <h5 className='text-center'>Whitelist Pre Sale :  21 th January</h5>
+                        <h5 className="text-center">Public Sale : 22 th January</h5>
+                    </div>
+                </Modal.Body>
+
+            </Modal>
+            {/* ==============date popup modal=========== */}
 
             {/* ===================== Hero Section ============================= */}
             <div className="heroDiv">
@@ -59,6 +80,9 @@ export default function Home() {
                                 <div className="heroSec-btnGroup">
                                     <Button onClick={handleShow} className="openseaBtn my-2">Mint <FontAwesomeIcon icon={faArrowRight} /></Button>
                                     <Button href='https://discord.com/invite/GeKngV8ds8' target='_blank' className="discordBtn my-2">Discord <FontAwesomeIcon icon={faDiscord} /></Button>
+                                    <div className="bottomBtn">
+                                    <Button href="https://twitter.com/sillysloths_nft" target="_blank" rel="noreferrer" className="twitter my-4">Twitter <FontAwesomeIcon icon={faArrowRight} /></Button>
+                                    </div>
                                 </div>
                             </div>
                         </Col>
@@ -71,6 +95,12 @@ export default function Home() {
             <Counter />
             {/* ===================== Counter ============================= */}
 
+
+            {/* ========================Video========================== */}
+
+            <Video />
+
+            {/* ========================Video========================== */}
             {/* ===================== About ============================= */}
             <div className="aboutDiv" id="about">
                 <Container>
@@ -97,6 +127,12 @@ export default function Home() {
             </div>
             {/* ===================== About ============================= */}
 
+
+
+
+
+
+
             {/* ===================== Story ============================= */}
             <div className="storyDiv">
                 <Container>
@@ -105,6 +141,7 @@ export default function Home() {
                             <div className="story_img">
                                 <Image className="mindSloth" src={StoryImg} fluid />
                             </div>
+
                         </Col>
                         <Col lg={6}>
                             <div className="story">
@@ -144,7 +181,7 @@ export default function Home() {
                         </Col>
                         <Col lg={6}>
                             <div className="bottomBtn">
-                                <Button href="https://twitter.com/SillySlothsNFT" target="_blank" rel="noreferrer" className="twitter my-4" disabled>Twitter <FontAwesomeIcon icon={faArrowRight} /></Button>
+                                <Button href="https://twitter.com/sillysloths_nft" target="_blank" rel="noreferrer" className="twitter my-4">Twitter <FontAwesomeIcon icon={faArrowRight} /></Button>
                                 <a href="https://discord.com/invite/GeKngV8ds8" rel="noreferrer" target="_blank" className="discord">Join Discord <FontAwesomeIcon icon={faArrowRight} /></a>
                             </div>
                         </Col>

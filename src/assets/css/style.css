@@ -503,3 +503,10 @@
         justify-content: flex-start;
     }
 }
+
+.mint-modal.popup h5{
+    color: #fff;
+    padding: 5px;
+    text-shadow: 2px 2px #E190B9;
+    font-size: 25px;
+}

@@ -32,8 +32,8 @@ export default function Roadmap() {
                                 <div className="roadMap_phase_content">
                                     <h3>PHASE 2 – Mint </h3>
                                     <ul>
-                                        <li>• Whitelist Pre-Sale – Whitelist members will have 24 hours to mint an NFT or NFTs up to the maximum allowed per person. (14th January) </li>
-                                        <li>• Public Sale – Public sale may be stealth to avoid gas wars with 9,950 up for grabs. 50 Silly Sloths will be held for promotional purposes, contests, and raffles to reward members who become more involved in the Silly Sloths community sharing ideas, solving riddles, and winning contests. (15th January)</li>
+                                        <li>• Whitelist Pre-Sale – Whitelist members will have 24 hours to mint an NFT or NFTs up to the maximum allowed per person. (21th January) </li>
+                                        <li>• Public Sale – Public sale may be stealth to avoid gas wars with 9,950 up for grabs. 50 Silly Sloths will be held for promotional purposes, contests, and raffles to reward members who become more involved in the Silly Sloths community sharing ideas, solving riddles, and winning contests. (22th January)</li>
                                         <li>• Reveal – Each Silly sloth will be revealed 48 hours after the public sale and all Silly Sloths are sold out. </li>
                                     </ul>
                                 </div>
