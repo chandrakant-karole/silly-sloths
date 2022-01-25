@@ -16,6 +16,8 @@ import { faDiscord } from '@fortawesome/free-brands-svg-icons'
 import Web3 from 'web3';
 
 import { CONTACT_ABI, CONTACT_ADDRESS } from '../config';
+// import { CONTACT_ABI, CONTACT_ADDRESS } from '../test.config';
+
 
 const web3 = new Web3(Web3.givenProvider || 'http://localhost:7545');
 
@@ -778,7 +780,7 @@ export default function Home() {
 
     // const [showp, setShowp] = useState(true);
 
-    // const handleClose = () => setShowp(false);
+    // const handleClosep = () => setShowp(false);
     // const handleShowp = () => setShowp(true);
 
     const mintNft = async (e) => {
@@ -795,8 +797,9 @@ export default function Home() {
             console.log(web_value);
 
             var tokenPirce = 0.05;
+            console.log(" e.target.id", e.target.id);
             var totalAmount = tokenPirce * e.target.id;
-            
+            // console.log(" e.target.id", e.target.id);
             // var web_totalAmountBigNumbrt = web3.utils.toWei('0.05', 'totalAmount');
 
             console.log('tokenPirce',tokenPirce);
@@ -807,17 +810,23 @@ export default function Home() {
 
             console.log('tokens',tokens);
             console.log('weiValue',bntokens);
+            console.log("210000*e.target.id,",100000*e.target.id);
 
             contactList.methods.mint(loginUserAddress,e.target.id)
             // console.log(e.target.id)
-            .send({
+            .send(
+                {
                 from: loginUserAddress,
-                gas:500000,
+                gas:165000 *e.target.id,
+                // gas:200000*e.target.id,
                 // value: web_value,
-                value:bntokens
-                // gas: 4000000
-                // gasPrice: '210000000',
-            }).on('error', function(error){
+                // value:5
+                value:bntokens,
+                // gasPrice:'130000000000',
+                // gasPrice: '5400000000',
+            }
+            )
+            .on('error', function(error){
                 console.log('error');
                 // location.reload();
             }).then( function( info ) {
@@ -848,7 +857,7 @@ export default function Home() {
                         <ListGroup.Item className='mint-item' id="7" onClick={mintNft}>Mint 7 Nft</ListGroup.Item>
                         <ListGroup.Item className='mint-item' id="8" onClick={mintNft}>Mint 8 Nft</ListGroup.Item>
                         <ListGroup.Item className='mint-item' id="9" onClick={mintNft}>Mint 9 Nft</ListGroup.Item>
-                        {/* <ListGroup.Item className='mint-item' id="10" onClick={mintNft}>Mint 10 Nft</ListGroup.Item> */}
+                        <ListGroup.Item className='mint-item' id="10" onClick={mintNft}>Mint 10 Nft</ListGroup.Item>
                     </ListGroup>
                 </Modal.Body>
                 {/* <Modal.Footer>
@@ -865,12 +874,11 @@ export default function Home() {
                 </Modal.Header>
                 <Modal.Body className='mint-modal popup'>
                     <div>
-                        <h5 className='text-center'>Whitelist Pre Sale :  21 th January</h5>
-                        <h5 className="text-center">Public Sale : 22 th January</h5>
+                        <h5 className='text-center'>Minting is delayed</h5>
                     </div>
                 </Modal.Body>
 
-            </Modal> */}
+            </Modal>  */}
             {/* ==============date popup modal=========== */}
 
             {/* ===================== Hero Section ============================= */}
@@ -884,7 +892,7 @@ export default function Home() {
                                 <p>In a rainforest of digital artistry the Silly Sloths are a unique family of creatures, nesting their home in the branches of the Ethereum blockchain.
                                 </p>
                                 <div className="heroSec-btnGroup">
-                                    <Button onClick={handleShow} className="openseaBtn my-2">Mint Now <FontAwesomeIcon icon={faArrowRight} /></Button>
+                                    <Button onClick={handleShow} className="openseaBtn my-2">MINT NOW <FontAwesomeIcon icon={faArrowRight} /></Button>
                                     <Button href='https://discord.com/invite/GeKngV8ds8' target='_blank' className="discordBtn my-2">Discord <FontAwesomeIcon icon={faDiscord} /></Button>
                                     <div className="bottomBtn">
                                         <Button href="https://twitter.com/sillysloths_nft" target="_blank" rel="noreferrer" className="twitter my-4">Twitter <FontAwesomeIcon icon={faArrowRight} /></Button>
